@@ -293,7 +293,7 @@ _gtest_header_file:FILEPATH=/opt/ros/humble/src/gtest_vendor/include/gtest/gtest
 _gtest_src_file:FILEPATH=/opt/ros/humble/src/gtest_vendor/src/gtest.cc
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/farah/ws_farah/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
@@ -383,7 +383,7 @@ controller_interface_DIR:PATH=/home/farah/ws_farah/install/controller_interface/
 controller_manager_DIR:PATH=/opt/ros/humble/share/controller_manager/cmake
 
 //The directory containing a CMake configuration file for controller_manager_msgs.
-controller_manager_msgs_DIR:PATH=/opt/ros/humble/share/controller_manager_msgs/cmake
+controller_manager_msgs_DIR:PATH=/home/farah/ws_farah/install/controller_manager_msgs/share/controller_manager_msgs/cmake
 
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/humble/lib/cmake/fastcdr

@@ -1,1 +1,1 @@
-controller_manager:hardware_interface:libserial:rclcpp
+controller_interface:hardware_interface:libserial_vendor:pluginlib:rclcpp:rclcpp_lifecycle
