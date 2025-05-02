@@ -1,0 +1,103 @@
+[0.009s] Invoking command in '/home/farah/ws_farah/build/imu_sensor_broadcaster': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface_testing/lib:/home/farah/ws_farah/install/controller_interface/lib:/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/farah/ws_farah/src/ros2_controllers/imu_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/farah/ws_farah/install/imu_sensor_broadcaster
+[0.059s] -- The CXX compiler identification is GNU 11.4.0
+[0.065s] -- Detecting CXX compiler ABI info
+[0.127s] -- Detecting CXX compiler ABI info - done
+[0.133s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.134s] -- Detecting CXX compile features
+[0.134s] -- Detecting CXX compile features - done
+[0.136s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.420s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.497s] -- Found controller_interface: 2.50.0 (/home/farah/ws_farah/install/controller_interface/share/controller_interface/cmake)
+[0.532s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.536s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.544s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.554s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.568s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.749s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.751s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.776s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.819s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.821s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.834s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.837s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.846s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.856s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.863s] -- Looking for C++ include pthread.h
+[0.964s] -- Looking for C++ include pthread.h - found
+[0.965s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.078s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.079s] -- Found Threads: TRUE  
+[1.127s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.129s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.146s] -- Found realtime_tools: 2.13.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.179s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.180s] -- Found controller_manager: 2.50.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.202s] -- Found ros2_control_test_assets: 2.50.0 (/home/farah/ws_farah/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[1.205s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.239s] -- The C compiler identification is GNU 11.4.0
+[1.244s] -- Detecting C compiler ABI info
+[1.320s] -- Detecting C compiler ABI info - done
+[1.326s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.327s] -- Detecting C compile features
+[1.327s] -- Detecting C compile features - done
+[1.330s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.331s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.358s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.359s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.359s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.431s] -- Configuring done
+[1.492s] -- Generating done
+[1.504s] -- Build files have been written to: /home/farah/ws_farah/build/imu_sensor_broadcaster
+[1.516s] Invoked command in '/home/farah/ws_farah/build/imu_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface_testing/lib:/home/farah/ws_farah/install/controller_interface/lib:/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/farah/ws_farah/src/ros2_controllers/imu_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/farah/ws_farah/install/imu_sensor_broadcaster
+[1.517s] Invoking command in '/home/farah/ws_farah/build/imu_sensor_broadcaster': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface_testing/lib:/home/farah/ws_farah/install/controller_interface/lib:/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/farah/ws_farah/build/imu_sensor_broadcaster -- -j8 -l8
+[1.559s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.559s] [ 18%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/farah/ws_farah/build/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters.hpp /home/farah/ws_farah/src/ros2_controllers/imu_sensor_broadcaster/src/imu_sensor_broadcaster_parameters.yaml `[0m
+[1.559s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.799s] [ 36%] [34m[1mCreating deprecated header file /home/farah/ws_farah/build/imu_sensor_broadcaster/include/imu_sensor_broadcaster_parameters.hpp[0m
+[1.847s] [ 36%] Built target imu_sensor_broadcaster_parameters
+[1.868s] [ 45%] [32mBuilding CXX object CMakeFiles/imu_sensor_broadcaster.dir/src/imu_sensor_broadcaster.cpp.o[0m
+[4.768s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[4.826s] [ 54%] Built target gmock
+[6.760s] [ 63%] [32m[1mLinking CXX shared library libimu_sensor_broadcaster.so[0m
+[7.014s] [ 63%] Built target imu_sensor_broadcaster
+[7.031s] [ 72%] [32mBuilding CXX object CMakeFiles/test_load_imu_sensor_broadcaster.dir/test/test_load_imu_sensor_broadcaster.cpp.o[0m
+[7.032s] [ 81%] [32mBuilding CXX object CMakeFiles/test_imu_sensor_broadcaster.dir/test/test_imu_sensor_broadcaster.cpp.o[0m
+[12.129s] [ 90%] [32m[1mLinking CXX executable test_load_imu_sensor_broadcaster[0m
+[12.645s] [ 90%] Built target test_load_imu_sensor_broadcaster
+[16.473s] [100%] [32m[1mLinking CXX executable test_imu_sensor_broadcaster[0m
+[17.349s] [100%] Built target test_imu_sensor_broadcaster
+[17.359s] Invoked command in '/home/farah/ws_farah/build/imu_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface_testing/lib:/home/farah/ws_farah/install/controller_interface/lib:/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/farah/ws_farah/build/imu_sensor_broadcaster -- -j8 -l8
+[17.360s] Invoking command in '/home/farah/ws_farah/build/imu_sensor_broadcaster': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface_testing/lib:/home/farah/ws_farah/install/controller_interface/lib:/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/farah/ws_farah/build/imu_sensor_broadcaster
+[17.366s] -- Install configuration: ""
+[17.366s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster
+[17.366s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters.hpp
+[17.366s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/imu_sensor_broadcaster.xml
+[17.367s] -- Up-to-date: /home/farah/ws_farah/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster
+[17.367s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster
+[17.367s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp
+[17.367s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster/visibility_control.h
+[17.367s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/lib/libimu_sensor_broadcaster.so
+[17.369s] -- Set runtime path of "/home/farah/ws_farah/install/imu_sensor_broadcaster/lib/libimu_sensor_broadcaster.so" to ""
+[17.369s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/library_path.sh
+[17.369s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/library_path.dsv
+[17.369s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/ament_index/resource_index/package_run_dependencies/imu_sensor_broadcaster
+[17.370s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/ament_index/resource_index/parent_prefix_path/imu_sensor_broadcaster
+[17.370s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/ament_prefix_path.sh
+[17.370s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/ament_prefix_path.dsv
+[17.370s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/path.sh
+[17.370s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/path.dsv
+[17.370s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.bash
+[17.370s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.sh
+[17.370s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.zsh
+[17.370s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.dsv
+[17.370s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.dsv
+[17.371s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/ament_index/resource_index/packages/imu_sensor_broadcaster
+[17.371s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/imu_sensor_broadcaster
+[17.371s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/export_imu_sensor_broadcasterExport.cmake
+[17.371s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/export_imu_sensor_broadcasterExport-noconfig.cmake
+[17.371s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.371s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[17.371s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/imu_sensor_broadcasterConfig.cmake
+[17.371s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/imu_sensor_broadcasterConfig-version.cmake
+[17.371s] -- Installing: /home/farah/ws_farah/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.xml
+[17.373s] Invoked command in '/home/farah/ws_farah/build/imu_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface_testing/lib:/home/farah/ws_farah/install/controller_interface/lib:/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/farah/ws_farah/build/imu_sensor_broadcaster

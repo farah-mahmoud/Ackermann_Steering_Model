@@ -1,0 +1,63 @@
+[0.006s] Invoking command in '/home/farah/ws_farah/build/race_it': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/farah/ws_farah/src/ros2_acker/race_it -DCMAKE_INSTALL_PREFIX=/home/farah/ws_farah/install/race_it
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.105s] -- The CXX compiler identification is GNU 11.4.0
+[0.111s] -- Detecting C compiler ABI info
+[0.160s] -- Detecting C compiler ABI info - done
+[0.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.167s] -- Detecting C compile features
+[0.167s] -- Detecting C compile features - done
+[0.169s] -- Detecting CXX compiler ABI info
+[0.228s] -- Detecting CXX compiler ABI info - done
+[0.235s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.235s] -- Detecting CXX compile features
+[0.236s] -- Detecting CXX compile features - done
+[0.238s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.532s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.607s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.676s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.677s] -- Added test 'lint_cmake' to check CMake code style
+[0.677s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.678s] -- Added test 'xmllint' to check XML markup files
+[0.679s] -- Configuring done
+[0.681s] -- Generating done
+[0.683s] -- Build files have been written to: /home/farah/ws_farah/build/race_it
+[0.686s] Invoked command in '/home/farah/ws_farah/build/race_it' returned '0': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/farah/ws_farah/src/ros2_acker/race_it -DCMAKE_INSTALL_PREFIX=/home/farah/ws_farah/install/race_it
+[0.687s] Invoking command in '/home/farah/ws_farah/build/race_it': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/farah/ws_farah/build/race_it -- -j8 -l8
+[0.716s] Invoked command in '/home/farah/ws_farah/build/race_it' returned '0': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/farah/ws_farah/build/race_it -- -j8 -l8
+[0.717s] Invoking command in '/home/farah/ws_farah/build/race_it': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/farah/ws_farah/build/race_it
+[0.723s] -- Install configuration: ""
+[0.723s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/description
+[0.723s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/description/race_car.xacro
+[0.723s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/description/inertial.xacro
+[0.723s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/description/ros2_ack.xacro
+[0.723s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/description/temp_controllers
+[0.723s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/description/temp_controllers/car.xacro
+[0.723s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/description/temp_controllers/gazebo_control_steer.xacro
+[0.723s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/description/temp_controllers/carbottt.xacro
+[0.723s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/description/temp_controllers/gazebo_control_dd.xacro
+[0.724s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/description/temp_controllers/carzzz.xacro
+[0.724s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/launch
+[0.724s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/launch/rsp.launch.py
+[0.724s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/launch/real2_car.launch.py
+[0.724s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/launch/real_car.launch.py
+[0.724s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/config
+[0.724s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/config/controller
+[0.724s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/config/controller/my_controllers.yaml
+[0.724s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/config/rviz
+[0.724s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/config/rviz/urdf_config.rviz
+[0.725s] -- Installing: /home/farah/ws_farah/install/race_it/share/ament_index/resource_index/package_run_dependencies/race_it
+[0.725s] -- Installing: /home/farah/ws_farah/install/race_it/share/ament_index/resource_index/parent_prefix_path/race_it
+[0.725s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/environment/ament_prefix_path.sh
+[0.725s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/environment/ament_prefix_path.dsv
+[0.725s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/environment/path.sh
+[0.725s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/environment/path.dsv
+[0.725s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/local_setup.bash
+[0.725s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/local_setup.sh
+[0.725s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/local_setup.zsh
+[0.725s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/local_setup.dsv
+[0.725s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/package.dsv
+[0.726s] -- Installing: /home/farah/ws_farah/install/race_it/share/ament_index/resource_index/packages/race_it
+[0.726s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/cmake/race_itConfig.cmake
+[0.726s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/cmake/race_itConfig-version.cmake
+[0.726s] -- Installing: /home/farah/ws_farah/install/race_it/share/race_it/package.xml
+[0.728s] Invoked command in '/home/farah/ws_farah/build/race_it' returned '0': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/farah/ws_farah/build/race_it

@@ -1,0 +1,13 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/farah/ws_farah/install/controller_manager_msgs/share/controller_manager_msgs/package.sh"
+. "/home/farah/ws_farah/install/ros2_control_demo_description/share/ros2_control_demo_description/package.sh"
+. "/home/farah/ws_farah/install/ros2_control_test_assets/share/ros2_control_test_assets/package.sh"
+. "/home/farah/ws_farah/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/package.sh"
+. "/home/farah/ws_farah/install/hardware_interface/share/hardware_interface/package.sh"
+. "/home/farah/ws_farah/install/ros2controlcli/share/ros2controlcli/package.sh"
+. "/home/farah/ws_farah/install/controller_interface/share/controller_interface/package.sh"
+. "/home/farah/ws_farah/install/hardware_interface_testing/share/hardware_interface_testing/package.sh"
+. "/home/farah/ws_farah/install/forward_command_controller/share/forward_command_controller/package.sh"
+. "/home/farah/ws_farah/install/joint_state_broadcaster/share/joint_state_broadcaster/package.sh"
+. "/home/farah/ws_farah/install/position_controllers/share/position_controllers/package.sh"
+. "/home/farah/ws_farah/install/velocity_controllers/share/velocity_controllers/package.sh"

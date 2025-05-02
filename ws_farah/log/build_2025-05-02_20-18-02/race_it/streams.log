@@ -1,0 +1,39 @@
+[0.015s] Invoking command in '/home/farah/ws_farah/build/race_it': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/farah/ws_farah/build/race_it -- -j8 -l8
+[0.041s] Invoked command in '/home/farah/ws_farah/build/race_it' returned '0': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/farah/ws_farah/build/race_it -- -j8 -l8
+[0.049s] Invoking command in '/home/farah/ws_farah/build/race_it': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/farah/ws_farah/build/race_it
+[0.054s] -- Install configuration: ""
+[0.054s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/description
+[0.054s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/description/race_car.xacro
+[0.054s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/description/inertial.xacro
+[0.054s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/description/ros2_ack.xacro
+[0.054s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/description/temp_controllers
+[0.055s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/description/temp_controllers/car.xacro
+[0.055s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/description/temp_controllers/gazebo_control_steer.xacro
+[0.055s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/description/temp_controllers/carbottt.xacro
+[0.055s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/description/temp_controllers/gazebo_control_dd.xacro
+[0.055s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/description/temp_controllers/carzzz.xacro
+[0.055s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/launch
+[0.055s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/launch/rsp.launch.py
+[0.055s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/launch/real2_car.launch.py
+[0.055s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/launch/real_car.launch.py
+[0.055s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/config
+[0.055s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/config/controller
+[0.055s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/config/controller/my_controllers.yaml
+[0.055s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/config/rviz
+[0.055s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/config/rviz/urdf_config.rviz
+[0.055s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/ament_index/resource_index/package_run_dependencies/race_it
+[0.055s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/ament_index/resource_index/parent_prefix_path/race_it
+[0.056s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/environment/ament_prefix_path.sh
+[0.056s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/environment/ament_prefix_path.dsv
+[0.056s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/environment/path.sh
+[0.056s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/environment/path.dsv
+[0.056s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/local_setup.bash
+[0.056s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/local_setup.sh
+[0.056s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/local_setup.zsh
+[0.056s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/local_setup.dsv
+[0.056s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/package.dsv
+[0.056s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/ament_index/resource_index/packages/race_it
+[0.056s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/cmake/race_itConfig.cmake
+[0.056s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/cmake/race_itConfig-version.cmake
+[0.056s] -- Up-to-date: /home/farah/ws_farah/install/race_it/share/race_it/package.xml
+[0.057s] Invoked command in '/home/farah/ws_farah/build/race_it' returned '0': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/farah/ws_farah/build/race_it

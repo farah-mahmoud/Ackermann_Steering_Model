@@ -1,0 +1,84 @@
+[0.756s] Invoking command in '/home/farah/ws_farah/src/ros2_control/ros2controlcli': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/controller_manager_msgs LD_LIBRARY_PATH=/home/farah/ws_farah/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/farah/ws_farah/build/ros2controlcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages:/home/farah/ws_farah/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2controlcli build --build-base /home/farah/ws_farah/build/ros2controlcli/build install --record /home/farah/ws_farah/build/ros2controlcli/install.log --single-version-externally-managed install_data
+[0.992s] running egg_info
+[0.992s] creating ../../../build/ros2controlcli/ros2controlcli.egg-info
+[1.009s] writing ../../../build/ros2controlcli/ros2controlcli.egg-info/PKG-INFO
+[1.010s] writing dependency_links to ../../../build/ros2controlcli/ros2controlcli.egg-info/dependency_links.txt
+[1.010s] writing entry points to ../../../build/ros2controlcli/ros2controlcli.egg-info/entry_points.txt
+[1.011s] writing requirements to ../../../build/ros2controlcli/ros2controlcli.egg-info/requires.txt
+[1.011s] writing top-level names to ../../../build/ros2controlcli/ros2controlcli.egg-info/top_level.txt
+[1.011s] writing manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[1.059s] reading manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[1.059s] writing manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[1.059s] running build
+[1.060s] running build_py
+[1.060s] creating /home/farah/ws_farah/build/ros2controlcli/build
+[1.060s] creating /home/farah/ws_farah/build/ros2controlcli/build/lib
+[1.060s] creating /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli
+[1.060s] copying ros2controlcli/__init__.py -> /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli
+[1.060s] creating /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/command
+[1.060s] copying ros2controlcli/command/control.py -> /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/command
+[1.060s] copying ros2controlcli/command/__init__.py -> /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/command
+[1.060s] creating /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb
+[1.060s] copying ros2controlcli/verb/set_controller_state.py -> /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb
+[1.061s] copying ros2controlcli/verb/load_controller.py -> /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb
+[1.061s] copying ros2controlcli/verb/list_controllers.py -> /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb
+[1.061s] copying ros2controlcli/verb/view_controller_chains.py -> /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb
+[1.061s] copying ros2controlcli/verb/list_controller_types.py -> /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb
+[1.061s] copying ros2controlcli/verb/list_hardware_interfaces.py -> /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb
+[1.061s] copying ros2controlcli/verb/list_hardware_components.py -> /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb
+[1.061s] copying ros2controlcli/verb/unload_controller.py -> /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb
+[1.061s] copying ros2controlcli/verb/reload_controller_libraries.py -> /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb
+[1.061s] copying ros2controlcli/verb/__init__.py -> /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb
+[1.062s] copying ros2controlcli/verb/set_hardware_component_state.py -> /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb
+[1.062s] copying ros2controlcli/verb/switch_controllers.py -> /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb
+[1.062s] creating /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/api
+[1.062s] copying ros2controlcli/api/__init__.py -> /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/api
+[1.062s] running install
+[1.067s] running install_lib
+[1.085s] creating /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli
+[1.086s] creating /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[1.086s] copying /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/command/control.py -> /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[1.086s] copying /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/command/__init__.py -> /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[1.086s] creating /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[1.086s] copying /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb/set_controller_state.py -> /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[1.086s] copying /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb/load_controller.py -> /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[1.086s] copying /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controllers.py -> /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[1.086s] copying /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb/view_controller_chains.py -> /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[1.086s] copying /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controller_types.py -> /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[1.087s] copying /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb/list_hardware_interfaces.py -> /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[1.087s] copying /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb/list_hardware_components.py -> /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[1.087s] copying /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb/unload_controller.py -> /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[1.087s] copying /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb/reload_controller_libraries.py -> /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[1.087s] copying /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb/__init__.py -> /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[1.087s] copying /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb/set_hardware_component_state.py -> /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[1.087s] copying /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/verb/switch_controllers.py -> /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[1.087s] creating /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api
+[1.087s] copying /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/api/__init__.py -> /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api
+[1.088s] copying /home/farah/ws_farah/build/ros2controlcli/build/lib/ros2controlcli/__init__.py -> /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli
+[1.088s] byte-compiling /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command/control.py to control.cpython-310.pyc
+[1.088s] byte-compiling /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command/__init__.py to __init__.cpython-310.pyc
+[1.089s] byte-compiling /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/set_controller_state.py to set_controller_state.cpython-310.pyc
+[1.089s] byte-compiling /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/load_controller.py to load_controller.cpython-310.pyc
+[1.090s] byte-compiling /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_controllers.py to list_controllers.cpython-310.pyc
+[1.090s] byte-compiling /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/view_controller_chains.py to view_controller_chains.cpython-310.pyc
+[1.091s] byte-compiling /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_controller_types.py to list_controller_types.cpython-310.pyc
+[1.091s] byte-compiling /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_hardware_interfaces.py to list_hardware_interfaces.cpython-310.pyc
+[1.092s] byte-compiling /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_hardware_components.py to list_hardware_components.cpython-310.pyc
+[1.092s] byte-compiling /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/unload_controller.py to unload_controller.cpython-310.pyc
+[1.093s] byte-compiling /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/reload_controller_libraries.py to reload_controller_libraries.cpython-310.pyc
+[1.093s] byte-compiling /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/__init__.py to __init__.cpython-310.pyc
+[1.093s] byte-compiling /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/set_hardware_component_state.py to set_hardware_component_state.cpython-310.pyc
+[1.093s] byte-compiling /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/switch_controllers.py to switch_controllers.cpython-310.pyc
+[1.094s] byte-compiling /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api/__init__.py to __init__.cpython-310.pyc
+[1.095s] byte-compiling /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/__init__.py to __init__.cpython-310.pyc
+[1.095s] running install_data
+[1.095s] copying package.xml -> /home/farah/ws_farah/install/ros2controlcli/share/ros2controlcli
+[1.095s] creating /home/farah/ws_farah/install/ros2controlcli/share/ament_index
+[1.095s] creating /home/farah/ws_farah/install/ros2controlcli/share/ament_index/resource_index
+[1.095s] creating /home/farah/ws_farah/install/ros2controlcli/share/ament_index/resource_index/packages
+[1.095s] copying resource/ros2controlcli -> /home/farah/ws_farah/install/ros2controlcli/share/ament_index/resource_index/packages
+[1.095s] running install_egg_info
+[1.115s] Copying ../../../build/ros2controlcli/ros2controlcli.egg-info to /home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli-2.50.0-py3.10.egg-info
+[1.115s] running install_scripts
+[1.270s] writing list of installed files to '/home/farah/ws_farah/build/ros2controlcli/install.log'
+[1.291s] Invoked command in '/home/farah/ws_farah/src/ros2_control/ros2controlcli' returned '0': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/controller_manager_msgs LD_LIBRARY_PATH=/home/farah/ws_farah/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/farah/ws_farah/build/ros2controlcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farah/ws_farah/install/ros2controlcli/lib/python3.10/site-packages:/home/farah/ws_farah/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2controlcli build --build-base /home/farah/ws_farah/build/ros2controlcli/build install --record /home/farah/ws_farah/build/ros2controlcli/install.log --single-version-externally-managed install_data

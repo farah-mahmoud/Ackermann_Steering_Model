@@ -1,0 +1,119 @@
+[0.006s] Invoking command in '/home/farah/ws_farah/build/controller_interface': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/farah/ws_farah/src/ros2_control/controller_interface -DCMAKE_INSTALL_PREFIX=/home/farah/ws_farah/install/controller_interface
+[0.044s] -- The C compiler identification is GNU 11.4.0
+[0.086s] -- The CXX compiler identification is GNU 11.4.0
+[0.091s] -- Detecting C compiler ABI info
+[0.141s] -- Detecting C compiler ABI info - done
+[0.150s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.150s] -- Detecting C compile features
+[0.150s] -- Detecting C compile features - done
+[0.153s] -- Detecting CXX compiler ABI info
+[0.213s] -- Detecting CXX compiler ABI info - done
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.220s] -- Detecting CXX compile features
+[0.220s] -- Detecting CXX compile features - done
+[0.222s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.504s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.581s] -- Found hardware_interface: 2.50.0 (/home/farah/ws_farah/install/hardware_interface/share/hardware_interface/cmake)
+[0.615s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.619s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.626s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.637s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.822s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.824s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.845s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.879s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.882s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.895s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.898s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.904s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.912s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.919s] -- Looking for pthread.h
+[0.974s] -- Looking for pthread.h - found
+[0.974s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.029s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.030s] -- Found Threads: TRUE  
+[1.075s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.077s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.080s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.081s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.159s] -- Configuring done
+[1.261s] -- Generating done
+[1.280s] -- Build files have been written to: /home/farah/ws_farah/build/controller_interface
+[1.290s] Invoked command in '/home/farah/ws_farah/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/farah/ws_farah/src/ros2_control/controller_interface -DCMAKE_INSTALL_PREFIX=/home/farah/ws_farah/install/controller_interface
+[1.291s] Invoking command in '/home/farah/ws_farah/build/controller_interface': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/farah/ws_farah/build/controller_interface -- -j8 -l8
+[1.329s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.329s] [ 16%] [34m[1mGenerating controller_interface/version.h[0m
+[1.329s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.329s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.343s] [ 16%] Built target ament_generate_version_header__controller_interface
+[1.361s] [ 20%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/chainable_controller_interface.cpp.o[0m
+[1.361s] [ 29%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface_base.cpp.o[0m
+[1.361s] [ 29%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface.cpp.o[0m
+[2.632s] [ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.671s] [ 33%] Built target gmock_main
+[5.036s] [ 37%] [32m[1mLinking CXX static library libgmock.a[0m
+[5.095s] [ 37%] Built target gmock
+[5.114s] [ 50%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor.dir/test/test_force_torque_sensor.cpp.o[0m
+[5.114s] [ 50%] [32mBuilding CXX object CMakeFiles/test_semantic_component_interface.dir/test/test_semantic_component_interface.cpp.o[0m
+[5.114s] [ 50%] [32mBuilding CXX object CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o[0m
+[5.117s] [ 54%] [32mBuilding CXX object CMakeFiles/test_pose_sensor.dir/test/test_pose_sensor.cpp.o[0m
+[5.125s] [ 58%] [32m[1mLinking CXX shared library libcontroller_interface.so[0m
+[5.281s] [ 58%] Built target controller_interface
+[5.307s] [ 66%] [32mBuilding CXX object CMakeFiles/test_controller_interface.dir/test/test_controller_interface.cpp.o[0m
+[5.307s] [ 66%] [32mBuilding CXX object CMakeFiles/test_chainable_controller_interface.dir/test/test_chainable_controller_interface.cpp.o[0m
+[5.308s] [ 70%] [32mBuilding CXX object CMakeFiles/test_controller_with_options.dir/test/test_controller_with_options.cpp.o[0m
+[7.225s] [ 75%] [32m[1mLinking CXX executable test_force_torque_sensor[0m
+[7.713s] [ 75%] Built target test_force_torque_sensor
+[7.983s] [ 79%] [32m[1mLinking CXX executable test_semantic_component_interface[0m
+[8.011s] [ 83%] [32m[1mLinking CXX executable test_pose_sensor[0m
+[8.072s] [ 87%] [32m[1mLinking CXX executable test_imu_sensor[0m
+[8.490s] [ 87%] Built target test_semantic_component_interface
+[8.664s] [ 87%] Built target test_pose_sensor
+[8.687s] [ 87%] Built target test_imu_sensor
+[10.144s] [ 91%] [32m[1mLinking CXX executable test_controller_with_options[0m
+[10.426s] [ 91%] Built target test_controller_with_options
+[10.455s] [ 95%] [32m[1mLinking CXX executable test_controller_interface[0m
+[10.715s] [ 95%] Built target test_controller_interface
+[10.900s] [100%] [32m[1mLinking CXX executable test_chainable_controller_interface[0m
+[11.128s] [100%] Built target test_chainable_controller_interface
+[11.137s] Invoked command in '/home/farah/ws_farah/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/farah/ws_farah/build/controller_interface -- -j8 -l8
+[11.138s] Invoking command in '/home/farah/ws_farah/build/controller_interface': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/farah/ws_farah/build/controller_interface
+[11.144s] -- Install configuration: ""
+[11.144s] -- Installing: /home/farah/ws_farah/install/controller_interface/include
+[11.144s] -- Installing: /home/farah/ws_farah/install/controller_interface/include/controller_interface
+[11.144s] -- Installing: /home/farah/ws_farah/install/controller_interface/include/controller_interface/controller_interface_base.hpp
+[11.144s] -- Installing: /home/farah/ws_farah/install/controller_interface/include/controller_interface/controller_interface.hpp
+[11.144s] -- Installing: /home/farah/ws_farah/install/controller_interface/include/controller_interface/chainable_controller_interface.hpp
+[11.144s] -- Installing: /home/farah/ws_farah/install/controller_interface/include/controller_interface/helpers.hpp
+[11.144s] -- Installing: /home/farah/ws_farah/install/controller_interface/include/controller_interface/visibility_control.h
+[11.144s] -- Installing: /home/farah/ws_farah/install/controller_interface/include/semantic_components
+[11.144s] -- Installing: /home/farah/ws_farah/install/controller_interface/include/semantic_components/semantic_component_interface.hpp
+[11.144s] -- Installing: /home/farah/ws_farah/install/controller_interface/include/semantic_components/range_sensor.hpp
+[11.144s] -- Installing: /home/farah/ws_farah/install/controller_interface/include/semantic_components/force_torque_sensor.hpp
+[11.144s] -- Installing: /home/farah/ws_farah/install/controller_interface/include/semantic_components/pose_sensor.hpp
+[11.145s] -- Installing: /home/farah/ws_farah/install/controller_interface/include/semantic_components/imu_sensor.hpp
+[11.145s] -- Installing: /home/farah/ws_farah/install/controller_interface/lib/libcontroller_interface.so
+[11.145s] -- Set runtime path of "/home/farah/ws_farah/install/controller_interface/lib/libcontroller_interface.so" to ""
+[11.145s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/environment/library_path.sh
+[11.145s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/environment/library_path.dsv
+[11.145s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface
+[11.145s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface
+[11.145s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh
+[11.145s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv
+[11.146s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/environment/path.sh
+[11.146s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/environment/path.dsv
+[11.146s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/local_setup.bash
+[11.146s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/local_setup.sh
+[11.146s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/local_setup.zsh
+[11.146s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/local_setup.dsv
+[11.146s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/package.dsv
+[11.146s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/ament_index/resource_index/packages/controller_interface
+[11.146s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.147s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.147s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[11.147s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake
+[11.147s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake
+[11.147s] -- Installing: /home/farah/ws_farah/install/controller_interface/share/controller_interface/package.xml
+[11.147s] -- Installing: /home/farah/ws_farah/install/controller_interface/include/controller_interface/controller_interface/version.h
+[11.149s] Invoked command in '/home/farah/ws_farah/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/farah/ws_farah/build/controller_interface

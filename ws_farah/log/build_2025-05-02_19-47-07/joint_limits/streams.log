@@ -1,0 +1,101 @@
+[0.005s] Invoking command in '/home/farah/ws_farah/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/farah/ws_farah/src/ros2_control/joint_limits -DCMAKE_INSTALL_PREFIX=/home/farah/ws_farah/install/joint_limits
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.092s] -- The CXX compiler identification is GNU 11.4.0
+[0.098s] -- Detecting C compiler ABI info
+[0.152s] -- Detecting C compiler ABI info - done
+[0.159s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.159s] -- Detecting C compile features
+[0.159s] -- Detecting C compile features - done
+[0.162s] -- Detecting CXX compiler ABI info
+[0.226s] -- Detecting CXX compiler ABI info - done
+[0.235s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.236s] -- Detecting CXX compile features
+[0.236s] -- Detecting CXX compile features - done
+[0.238s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.543s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.619s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.653s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.657s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.664s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.675s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.688s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.726s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.728s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.794s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.817s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.854s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.860s] -- Looking for pthread.h
+[0.927s] -- Looking for pthread.h - found
+[0.928s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.990s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.991s] -- Found Threads: TRUE  
+[1.041s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.059s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.089s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.090s] -- Found launch_testing_ament_cmake: 1.0.8 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.091s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.109s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.114s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.114s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.114s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.114s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.133s] -- Found PythonExtra: .so  
+[1.135s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.200s] -- Configuring done
+[1.214s] -- Generating done
+[1.220s] -- Build files have been written to: /home/farah/ws_farah/build/joint_limits
+[1.229s] Invoked command in '/home/farah/ws_farah/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/farah/ws_farah/src/ros2_control/joint_limits -DCMAKE_INSTALL_PREFIX=/home/farah/ws_farah/install/joint_limits
+[1.230s] Invoking command in '/home/farah/ws_farah/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/farah/ws_farah/build/joint_limits -- -j8 -l8
+[1.270s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.270s] [ 33%] [34m[1mGenerating joint_limits/version.h[0m
+[1.270s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.285s] [ 33%] Built target ament_generate_version_header__joint_limits
+[1.859s] [ 44%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.886s] [ 44%] Built target gtest_main
+[3.840s] [ 55%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.884s] [ 55%] Built target gtest
+[3.901s] [ 77%] [32mBuilding CXX object CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o[0m
+[3.901s] [ 77%] [32mBuilding CXX object CMakeFiles/joint_limits_urdf_test.dir/test/joint_limits_urdf_test.cpp.o[0m
+[5.045s] [ 88%] [32m[1mLinking CXX executable joint_limits_urdf_test[0m
+[5.214s] [ 88%] Built target joint_limits_urdf_test
+[7.438s] [100%] [32m[1mLinking CXX executable joint_limits_rosparam_test[0m
+[7.615s] [100%] Built target joint_limits_rosparam_test
+[7.624s] Invoked command in '/home/farah/ws_farah/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/farah/ws_farah/build/joint_limits -- -j8 -l8
+[7.626s] Invoking command in '/home/farah/ws_farah/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/farah/ws_farah/build/joint_limits
+[7.631s] -- Install configuration: ""
+[7.631s] -- Installing: /home/farah/ws_farah/install/joint_limits/include
+[7.631s] -- Installing: /home/farah/ws_farah/install/joint_limits/include/joint_limits
+[7.631s] -- Installing: /home/farah/ws_farah/install/joint_limits/include/joint_limits/joint_limits_urdf.hpp
+[7.631s] -- Installing: /home/farah/ws_farah/install/joint_limits/include/joint_limits/joint_limits_rosparam.hpp
+[7.632s] -- Installing: /home/farah/ws_farah/install/joint_limits/include/joint_limits/joint_limits.hpp
+[7.632s] -- Installing: /home/farah/ws_farah/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test
+[7.632s] -- Set runtime path of "/home/farah/ws_farah/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test" to ""
+[7.632s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/test/joint_limits_rosparam.yaml
+[7.632s] -- Up-to-date: /home/farah/ws_farah/install/joint_limits/include/joint_limits
+[7.633s] -- Installing: /home/farah/ws_farah/install/joint_limits/include/joint_limits/joint_limits
+[7.633s] -- Installing: /home/farah/ws_farah/install/joint_limits/include/joint_limits/joint_limits/joint_limits_urdf.hpp
+[7.633s] -- Installing: /home/farah/ws_farah/install/joint_limits/include/joint_limits/joint_limits/joint_limits_rosparam.hpp
+[7.633s] -- Installing: /home/farah/ws_farah/install/joint_limits/include/joint_limits/joint_limits/joint_limits.hpp
+[7.633s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/environment/library_path.sh
+[7.633s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/environment/library_path.dsv
+[7.633s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/ament_index/resource_index/package_run_dependencies/joint_limits
+[7.633s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/ament_index/resource_index/parent_prefix_path/joint_limits
+[7.633s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/environment/ament_prefix_path.sh
+[7.633s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/environment/ament_prefix_path.dsv
+[7.633s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/environment/path.sh
+[7.634s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/environment/path.dsv
+[7.634s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/local_setup.bash
+[7.634s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/local_setup.sh
+[7.634s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/local_setup.zsh
+[7.634s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/local_setup.dsv
+[7.634s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/package.dsv
+[7.634s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/ament_index/resource_index/packages/joint_limits
+[7.634s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport.cmake
+[7.634s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_targets-extras.cmake
+[7.634s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.635s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.635s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig.cmake
+[7.635s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig-version.cmake
+[7.635s] -- Installing: /home/farah/ws_farah/install/joint_limits/share/joint_limits/package.xml
+[7.635s] -- Installing: /home/farah/ws_farah/install/joint_limits/include/joint_limits/joint_limits/version.h
+[7.637s] Invoked command in '/home/farah/ws_farah/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/farah/ws_farah/build/joint_limits

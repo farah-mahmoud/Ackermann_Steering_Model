@@ -1,0 +1,115 @@
+[0.008s] Invoking command in '/home/farah/ws_farah/build/pid_controller': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface_testing/lib:/home/farah/ws_farah/install/controller_interface/lib:/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/farah/ws_farah/src/ros2_controllers/pid_controller -DCMAKE_INSTALL_PREFIX=/home/farah/ws_farah/install/pid_controller
+[0.057s] -- The CXX compiler identification is GNU 11.4.0
+[0.063s] -- Detecting CXX compiler ABI info
+[0.125s] -- Detecting CXX compiler ABI info - done
+[0.134s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.134s] -- Detecting CXX compile features
+[0.134s] -- Detecting CXX compile features - done
+[0.137s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.421s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.508s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.510s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.543s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.547s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.556s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.566s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.581s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.693s] -- Found control_toolbox: 3.6.1 (/opt/ros/humble/share/control_toolbox/cmake)
+[0.731s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.733s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.797s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.820s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.855s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.862s] -- Looking for C++ include pthread.h
+[0.982s] -- Looking for C++ include pthread.h - found
+[0.983s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.075s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.076s] -- Found Threads: TRUE  
+[1.192s] -- Found controller_interface: 2.50.0 (/home/farah/ws_farah/install/controller_interface/share/controller_interface/cmake)
+[1.205s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.227s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.229s] -- Found controller_manager: 2.50.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.249s] -- Found ros2_control_test_assets: 2.50.0 (/home/farah/ws_farah/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[1.251s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.283s] -- The C compiler identification is GNU 11.4.0
+[1.288s] -- Detecting C compiler ABI info
+[1.364s] -- Detecting C compiler ABI info - done
+[1.370s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.371s] -- Detecting C compile features
+[1.371s] -- Detecting C compile features - done
+[1.374s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.375s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.390s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.390s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.391s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.402s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.402s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.403s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.414s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.414s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.415s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.481s] -- Configuring done
+[1.540s] -- Generating done
+[1.554s] -- Build files have been written to: /home/farah/ws_farah/build/pid_controller
+[1.566s] Invoked command in '/home/farah/ws_farah/build/pid_controller' returned '0': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface_testing/lib:/home/farah/ws_farah/install/controller_interface/lib:/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/farah/ws_farah/src/ros2_controllers/pid_controller -DCMAKE_INSTALL_PREFIX=/home/farah/ws_farah/install/pid_controller
+[1.567s] Invoking command in '/home/farah/ws_farah/build/pid_controller': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface_testing/lib:/home/farah/ws_farah/install/controller_interface/lib:/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/farah/ws_farah/build/pid_controller -- -j8 -l8
+[1.607s] [ 23%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/farah/ws_farah/build/pid_controller/include/pid_controller/pid_controller_parameters.hpp /home/farah/ws_farah/src/ros2_controllers/pid_controller/src/pid_controller.yaml `[0m
+[1.607s] [ 23%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.607s] [ 23%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.607s] [ 23%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.207s] [ 29%] [34m[1mCreating deprecated header file /home/farah/ws_farah/build/pid_controller/include/pid_controller_parameters.hpp[0m
+[2.245s] [ 29%] Built target pid_controller_parameters
+[2.263s] [ 35%] [32mBuilding CXX object CMakeFiles/pid_controller.dir/src/pid_controller.cpp.o[0m
+[2.849s] [ 41%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.883s] [ 41%] Built target gmock_main
+[4.633s] [ 47%] [32m[1mLinking CXX static library libgmock.a[0m
+[4.687s] [ 47%] Built target gmock
+[4.704s] [ 52%] [32mBuilding CXX object CMakeFiles/test_load_pid_controller.dir/test/test_load_pid_controller.cpp.o[0m
+[9.772s] [ 58%] [32m[1mLinking CXX executable test_load_pid_controller[0m
+[10.352s] [ 58%] Built target test_load_pid_controller
+[12.312s] [ 64%] [32m[1mLinking CXX shared library libpid_controller.so[0m
+[12.923s] [ 64%] Built target pid_controller
+[12.939s] [ 82%] [32mBuilding CXX object CMakeFiles/test_pid_controller_dual_interface.dir/test/test_pid_controller_dual_interface.cpp.o[0m
+[12.939s] [ 82%] [32mBuilding CXX object CMakeFiles/test_pid_controller.dir/test/test_pid_controller.cpp.o[0m
+[12.939s] [ 82%] [32mBuilding CXX object CMakeFiles/test_pid_controller_preceding.dir/test/test_pid_controller_preceding.cpp.o[0m
+[19.387s] [ 88%] [32m[1mLinking CXX executable test_pid_controller_preceding[0m
+[19.585s] [ 94%] [32m[1mLinking CXX executable test_pid_controller_dual_interface[0m
+[20.523s] [ 94%] Built target test_pid_controller_preceding
+[20.664s] [ 94%] Built target test_pid_controller_dual_interface
+[25.032s] [100%] [32m[1mLinking CXX executable test_pid_controller[0m
+[25.963s] [100%] Built target test_pid_controller
+[25.973s] Invoked command in '/home/farah/ws_farah/build/pid_controller' returned '0': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface_testing/lib:/home/farah/ws_farah/install/controller_interface/lib:/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/farah/ws_farah/build/pid_controller -- -j8 -l8
+[25.975s] Invoking command in '/home/farah/ws_farah/build/pid_controller': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface_testing/lib:/home/farah/ws_farah/install/controller_interface/lib:/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/farah/ws_farah/build/pid_controller
+[25.981s] -- Install configuration: ""
+[25.981s] -- Installing: /home/farah/ws_farah/install/pid_controller/include/pid_controller
+[25.981s] -- Installing: /home/farah/ws_farah/install/pid_controller/include/pid_controller/pid_controller_parameters.hpp
+[25.981s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/pid_controller.xml
+[25.981s] -- Up-to-date: /home/farah/ws_farah/install/pid_controller/include/pid_controller
+[25.981s] -- Installing: /home/farah/ws_farah/install/pid_controller/include/pid_controller/pid_controller
+[25.981s] -- Installing: /home/farah/ws_farah/install/pid_controller/include/pid_controller/pid_controller/pid_controller.hpp
+[25.981s] -- Installing: /home/farah/ws_farah/install/pid_controller/include/pid_controller/pid_controller/visibility_control.h
+[25.981s] -- Installing: /home/farah/ws_farah/install/pid_controller/lib/libpid_controller.so
+[25.988s] -- Set runtime path of "/home/farah/ws_farah/install/pid_controller/lib/libpid_controller.so" to ""
+[25.988s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/environment/library_path.sh
+[25.988s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/environment/library_path.dsv
+[25.988s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/ament_index/resource_index/package_run_dependencies/pid_controller
+[25.988s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/ament_index/resource_index/parent_prefix_path/pid_controller
+[25.988s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/environment/ament_prefix_path.sh
+[25.988s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/environment/ament_prefix_path.dsv
+[25.988s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/environment/path.sh
+[25.989s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/environment/path.dsv
+[25.989s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/local_setup.bash
+[25.989s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/local_setup.sh
+[25.989s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/local_setup.zsh
+[25.989s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/local_setup.dsv
+[25.989s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/package.dsv
+[25.989s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/ament_index/resource_index/packages/pid_controller
+[25.989s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/pid_controller
+[25.990s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/cmake/export_pid_controllerExport.cmake
+[25.990s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/cmake/export_pid_controllerExport-noconfig.cmake
+[25.990s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.990s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/cmake/ament_cmake_export_targets-extras.cmake
+[25.990s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/cmake/pid_controllerConfig.cmake
+[25.990s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/cmake/pid_controllerConfig-version.cmake
+[25.990s] -- Installing: /home/farah/ws_farah/install/pid_controller/share/pid_controller/package.xml
+[25.993s] Invoked command in '/home/farah/ws_farah/build/pid_controller' returned '0': AMENT_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farah/ws_farah/install/hardware_interface_testing:/home/farah/ws_farah/install/controller_interface:/home/farah/ws_farah/install/hardware_interface:/home/farah/ws_farah/install/ros2_control_test_assets:/opt/ros/humble LD_LIBRARY_PATH=/home/farah/ws_farah/install/hardware_interface_testing/lib:/home/farah/ws_farah/install/controller_interface/lib:/home/farah/ws_farah/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/farah/ws_farah/build/pid_controller
